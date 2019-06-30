@@ -1,0 +1,78 @@
+<pre>
+<p>/* Generated **
+** Counters do their work here */</p>
+<script>
+	var counters = []
+	var counter = 1;
+	for (var i = 0; i < 8; i++)
+		for (var j = 0; j < 8; j++) {
+			counters[counter] = "";
+			runAround(j, i, composer)
+			counter++;
+		}
+
+	var st1 = ".rmine:nth-of-type(";
+	var st2 = "):not(:indeterminate) {\n\tcounter-increment:"
+	var st3 = ";\n}\n\n"
+
+	for (var i = 1; i < counter; i++)
+		document.write(st1 + i + st2 + counters[i] + st3);
+
+	function runAround(x, y, func) {
+		for (var i = Math.max(x - 1, 0); i <= Math.min(x + 1, 7); i++)
+			for (var j = Math.max(y - 1, 0); j <= Math.min(y + 1, 7); j++)
+				func(i + j * 8 + 1);
+	}
+
+	function composer(index) {
+		//if (index!=counter)
+		counters[counter] += " c" + index + " 11";
+	}
+</script>
+<p>/* Set counters to field cells */</p>
+<script>
+	var st1 = ".rmine:nth-of-type("
+	var st2 = "):indeterminate ~ .field:nth-of-type("
+	var st3 = ") > .cell:before {\n\tcontent: counter(c"
+	var st4 = ");\n}\n\n"
+
+	for (var i = 1; i <= 64; i++)
+		document.write(st1 + i + st2 + i + st3 + i + st4);
+</script>
+<p>/*Shift auto-open overlays*/</p>
+<script>
+	var st1 = ".field:nth-of-type("
+	var st2 = ") > .shifter:before {\n\tcontent: counter(c"
+	var st3 = ");\n}\n\n"
+
+	for (var i = 1; i <= 64; i++)
+		document.write(st1 + i + st2 + i + st3);
+</script>
+<p>/* BOOM conditions */</p>
+<script>
+	var st1 = ".rmine:nth-of-type(";
+	var st2 = "):not(:indeterminate) ~ .field:nth-of-type("
+	var st3 = ") > .chk:checked {\n\tcounter-increment: cboom;\n}\n\n"
+
+	for (var i = 1; i <= 64; i++)
+		document.write(st1 + i + st2 + i + st3);
+</script>
+<p>/* Win-fail conditions */</p>
+<script>
+	var st1 = ".rmine:nth-of-type(";
+	var st2 = "):indeterminate ~ .field:nth-of-type("
+	var st3 = ") > .flg:checked {\n\tcounter-increment: cwin cfail;\n}\n\n"
+
+	for (var i = 1; i <= 64; i++)
+		document.write(st1 + i + st2 + i + st3);
+</script>
+<p>/* Make visible mine symbols */</p>
+<script>
+	var st1 = ".rmine:nth-of-type(";
+	var st2 = "):not(:indeterminate) ~ .field:nth-of-type("
+	var st3 = ") > .icon {\n\tdisplay: block;\n}\n\n"
+
+	for (var i = 1; i <= 64; i++)
+		document.write(st1 + i + st2 + i + st3);
+</script>
+<pre>

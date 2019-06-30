@@ -1,0 +1,31 @@
+<pre>
+<script>
+
+	var st1 =
+		"<div class='field'>\n" +
+		"\t<input type='radio' autocomplete='off' class='chk'>\n" +
+		"\t<input type='checkbox' autocomplete='off' class='flg'>\n" +
+		"\t<div class='shifter'></div>\n" +
+		"\t<input type='radio' autocomplete='off' class='achk' name='gr_";
+	var st2 =
+		"'>\n" +
+		"\t<div class='overlay'></div>\n" +
+		"\t<div class='cell'></div>\n" +
+		"\t<div class='icon'></div>\n" +
+		"</div>\n\n";
+
+	st1 = st1.replace(/</g, "&lt").replace(/>/g, "&gt");
+	st2 = st2.replace(/</g, "&lt").replace(/>/g, "&gt");
+
+	for (var i = 0; i < 64; i++) {
+		var g = i % 8 < 4 ? "l" : "r";
+		g += i < 32 ? "t" : "d";
+
+		if (i == 31 - 4 || i == 31 - 3 || i == 31 + 4 || i == 31 + 5)
+			g = "mid";
+
+		document.write(st1 + g + st2);
+	}
+
+</script>
+</pre>

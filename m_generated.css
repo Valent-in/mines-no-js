@@ -1,0 +1,1553 @@
+/* Generated **
+** Counters do their work here */
+
+.rmine:nth-of-type(1):not(:indeterminate) {
+	counter-increment: c1 11 c9 11 c2 11 c10 11;
+}
+
+.rmine:nth-of-type(2):not(:indeterminate) {
+	counter-increment: c1 11 c9 11 c2 11 c10 11 c3 11 c11 11;
+}
+
+.rmine:nth-of-type(3):not(:indeterminate) {
+	counter-increment: c2 11 c10 11 c3 11 c11 11 c4 11 c12 11;
+}
+
+.rmine:nth-of-type(4):not(:indeterminate) {
+	counter-increment: c3 11 c11 11 c4 11 c12 11 c5 11 c13 11;
+}
+
+.rmine:nth-of-type(5):not(:indeterminate) {
+	counter-increment: c4 11 c12 11 c5 11 c13 11 c6 11 c14 11;
+}
+
+.rmine:nth-of-type(6):not(:indeterminate) {
+	counter-increment: c5 11 c13 11 c6 11 c14 11 c7 11 c15 11;
+}
+
+.rmine:nth-of-type(7):not(:indeterminate) {
+	counter-increment: c6 11 c14 11 c7 11 c15 11 c8 11 c16 11;
+}
+
+.rmine:nth-of-type(8):not(:indeterminate) {
+	counter-increment: c7 11 c15 11 c8 11 c16 11;
+}
+
+.rmine:nth-of-type(9):not(:indeterminate) {
+	counter-increment: c1 11 c9 11 c17 11 c2 11 c10 11 c18 11;
+}
+
+.rmine:nth-of-type(10):not(:indeterminate) {
+	counter-increment: c1 11 c9 11 c17 11 c2 11 c10 11 c18 11 c3 11 c11 11 c19 11;
+}
+
+.rmine:nth-of-type(11):not(:indeterminate) {
+	counter-increment: c2 11 c10 11 c18 11 c3 11 c11 11 c19 11 c4 11 c12 11 c20 11;
+}
+
+.rmine:nth-of-type(12):not(:indeterminate) {
+	counter-increment: c3 11 c11 11 c19 11 c4 11 c12 11 c20 11 c5 11 c13 11 c21 11;
+}
+
+.rmine:nth-of-type(13):not(:indeterminate) {
+	counter-increment: c4 11 c12 11 c20 11 c5 11 c13 11 c21 11 c6 11 c14 11 c22 11;
+}
+
+.rmine:nth-of-type(14):not(:indeterminate) {
+	counter-increment: c5 11 c13 11 c21 11 c6 11 c14 11 c22 11 c7 11 c15 11 c23 11;
+}
+
+.rmine:nth-of-type(15):not(:indeterminate) {
+	counter-increment: c6 11 c14 11 c22 11 c7 11 c15 11 c23 11 c8 11 c16 11 c24 11;
+}
+
+.rmine:nth-of-type(16):not(:indeterminate) {
+	counter-increment: c7 11 c15 11 c23 11 c8 11 c16 11 c24 11;
+}
+
+.rmine:nth-of-type(17):not(:indeterminate) {
+	counter-increment: c9 11 c17 11 c25 11 c10 11 c18 11 c26 11;
+}
+
+.rmine:nth-of-type(18):not(:indeterminate) {
+	counter-increment: c9 11 c17 11 c25 11 c10 11 c18 11 c26 11 c11 11 c19 11 c27 11;
+}
+
+.rmine:nth-of-type(19):not(:indeterminate) {
+	counter-increment: c10 11 c18 11 c26 11 c11 11 c19 11 c27 11 c12 11 c20 11 c28 11;
+}
+
+.rmine:nth-of-type(20):not(:indeterminate) {
+	counter-increment: c11 11 c19 11 c27 11 c12 11 c20 11 c28 11 c13 11 c21 11 c29 11;
+}
+
+.rmine:nth-of-type(21):not(:indeterminate) {
+	counter-increment: c12 11 c20 11 c28 11 c13 11 c21 11 c29 11 c14 11 c22 11 c30 11;
+}
+
+.rmine:nth-of-type(22):not(:indeterminate) {
+	counter-increment: c13 11 c21 11 c29 11 c14 11 c22 11 c30 11 c15 11 c23 11 c31 11;
+}
+
+.rmine:nth-of-type(23):not(:indeterminate) {
+	counter-increment: c14 11 c22 11 c30 11 c15 11 c23 11 c31 11 c16 11 c24 11 c32 11;
+}
+
+.rmine:nth-of-type(24):not(:indeterminate) {
+	counter-increment: c15 11 c23 11 c31 11 c16 11 c24 11 c32 11;
+}
+
+.rmine:nth-of-type(25):not(:indeterminate) {
+	counter-increment: c17 11 c25 11 c33 11 c18 11 c26 11 c34 11;
+}
+
+.rmine:nth-of-type(26):not(:indeterminate) {
+	counter-increment: c17 11 c25 11 c33 11 c18 11 c26 11 c34 11 c19 11 c27 11 c35 11;
+}
+
+.rmine:nth-of-type(27):not(:indeterminate) {
+	counter-increment: c18 11 c26 11 c34 11 c19 11 c27 11 c35 11 c20 11 c28 11 c36 11;
+}
+
+.rmine:nth-of-type(28):not(:indeterminate) {
+	counter-increment: c19 11 c27 11 c35 11 c20 11 c28 11 c36 11 c21 11 c29 11 c37 11;
+}
+
+.rmine:nth-of-type(29):not(:indeterminate) {
+	counter-increment: c20 11 c28 11 c36 11 c21 11 c29 11 c37 11 c22 11 c30 11 c38 11;
+}
+
+.rmine:nth-of-type(30):not(:indeterminate) {
+	counter-increment: c21 11 c29 11 c37 11 c22 11 c30 11 c38 11 c23 11 c31 11 c39 11;
+}
+
+.rmine:nth-of-type(31):not(:indeterminate) {
+	counter-increment: c22 11 c30 11 c38 11 c23 11 c31 11 c39 11 c24 11 c32 11 c40 11;
+}
+
+.rmine:nth-of-type(32):not(:indeterminate) {
+	counter-increment: c23 11 c31 11 c39 11 c24 11 c32 11 c40 11;
+}
+
+.rmine:nth-of-type(33):not(:indeterminate) {
+	counter-increment: c25 11 c33 11 c41 11 c26 11 c34 11 c42 11;
+}
+
+.rmine:nth-of-type(34):not(:indeterminate) {
+	counter-increment: c25 11 c33 11 c41 11 c26 11 c34 11 c42 11 c27 11 c35 11 c43 11;
+}
+
+.rmine:nth-of-type(35):not(:indeterminate) {
+	counter-increment: c26 11 c34 11 c42 11 c27 11 c35 11 c43 11 c28 11 c36 11 c44 11;
+}
+
+.rmine:nth-of-type(36):not(:indeterminate) {
+	counter-increment: c27 11 c35 11 c43 11 c28 11 c36 11 c44 11 c29 11 c37 11 c45 11;
+}
+
+.rmine:nth-of-type(37):not(:indeterminate) {
+	counter-increment: c28 11 c36 11 c44 11 c29 11 c37 11 c45 11 c30 11 c38 11 c46 11;
+}
+
+.rmine:nth-of-type(38):not(:indeterminate) {
+	counter-increment: c29 11 c37 11 c45 11 c30 11 c38 11 c46 11 c31 11 c39 11 c47 11;
+}
+
+.rmine:nth-of-type(39):not(:indeterminate) {
+	counter-increment: c30 11 c38 11 c46 11 c31 11 c39 11 c47 11 c32 11 c40 11 c48 11;
+}
+
+.rmine:nth-of-type(40):not(:indeterminate) {
+	counter-increment: c31 11 c39 11 c47 11 c32 11 c40 11 c48 11;
+}
+
+.rmine:nth-of-type(41):not(:indeterminate) {
+	counter-increment: c33 11 c41 11 c49 11 c34 11 c42 11 c50 11;
+}
+
+.rmine:nth-of-type(42):not(:indeterminate) {
+	counter-increment: c33 11 c41 11 c49 11 c34 11 c42 11 c50 11 c35 11 c43 11 c51 11;
+}
+
+.rmine:nth-of-type(43):not(:indeterminate) {
+	counter-increment: c34 11 c42 11 c50 11 c35 11 c43 11 c51 11 c36 11 c44 11 c52 11;
+}
+
+.rmine:nth-of-type(44):not(:indeterminate) {
+	counter-increment: c35 11 c43 11 c51 11 c36 11 c44 11 c52 11 c37 11 c45 11 c53 11;
+}
+
+.rmine:nth-of-type(45):not(:indeterminate) {
+	counter-increment: c36 11 c44 11 c52 11 c37 11 c45 11 c53 11 c38 11 c46 11 c54 11;
+}
+
+.rmine:nth-of-type(46):not(:indeterminate) {
+	counter-increment: c37 11 c45 11 c53 11 c38 11 c46 11 c54 11 c39 11 c47 11 c55 11;
+}
+
+.rmine:nth-of-type(47):not(:indeterminate) {
+	counter-increment: c38 11 c46 11 c54 11 c39 11 c47 11 c55 11 c40 11 c48 11 c56 11;
+}
+
+.rmine:nth-of-type(48):not(:indeterminate) {
+	counter-increment: c39 11 c47 11 c55 11 c40 11 c48 11 c56 11;
+}
+
+.rmine:nth-of-type(49):not(:indeterminate) {
+	counter-increment: c41 11 c49 11 c57 11 c42 11 c50 11 c58 11;
+}
+
+.rmine:nth-of-type(50):not(:indeterminate) {
+	counter-increment: c41 11 c49 11 c57 11 c42 11 c50 11 c58 11 c43 11 c51 11 c59 11;
+}
+
+.rmine:nth-of-type(51):not(:indeterminate) {
+	counter-increment: c42 11 c50 11 c58 11 c43 11 c51 11 c59 11 c44 11 c52 11 c60 11;
+}
+
+.rmine:nth-of-type(52):not(:indeterminate) {
+	counter-increment: c43 11 c51 11 c59 11 c44 11 c52 11 c60 11 c45 11 c53 11 c61 11;
+}
+
+.rmine:nth-of-type(53):not(:indeterminate) {
+	counter-increment: c44 11 c52 11 c60 11 c45 11 c53 11 c61 11 c46 11 c54 11 c62 11;
+}
+
+.rmine:nth-of-type(54):not(:indeterminate) {
+	counter-increment: c45 11 c53 11 c61 11 c46 11 c54 11 c62 11 c47 11 c55 11 c63 11;
+}
+
+.rmine:nth-of-type(55):not(:indeterminate) {
+	counter-increment: c46 11 c54 11 c62 11 c47 11 c55 11 c63 11 c48 11 c56 11 c64 11;
+}
+
+.rmine:nth-of-type(56):not(:indeterminate) {
+	counter-increment: c47 11 c55 11 c63 11 c48 11 c56 11 c64 11;
+}
+
+.rmine:nth-of-type(57):not(:indeterminate) {
+	counter-increment: c49 11 c57 11 c50 11 c58 11;
+}
+
+.rmine:nth-of-type(58):not(:indeterminate) {
+	counter-increment: c49 11 c57 11 c50 11 c58 11 c51 11 c59 11;
+}
+
+.rmine:nth-of-type(59):not(:indeterminate) {
+	counter-increment: c50 11 c58 11 c51 11 c59 11 c52 11 c60 11;
+}
+
+.rmine:nth-of-type(60):not(:indeterminate) {
+	counter-increment: c51 11 c59 11 c52 11 c60 11 c53 11 c61 11;
+}
+
+.rmine:nth-of-type(61):not(:indeterminate) {
+	counter-increment: c52 11 c60 11 c53 11 c61 11 c54 11 c62 11;
+}
+
+.rmine:nth-of-type(62):not(:indeterminate) {
+	counter-increment: c53 11 c61 11 c54 11 c62 11 c55 11 c63 11;
+}
+
+.rmine:nth-of-type(63):not(:indeterminate) {
+	counter-increment: c54 11 c62 11 c55 11 c63 11 c56 11 c64 11;
+}
+
+.rmine:nth-of-type(64):not(:indeterminate) {
+	counter-increment: c55 11 c63 11 c56 11 c64 11;
+}
+
+
+/* Set counters to field cells */
+
+.rmine:nth-of-type(1):indeterminate ~ .field:nth-of-type(1) > .cell:before {
+	content: counter(c1);
+}
+
+.rmine:nth-of-type(2):indeterminate ~ .field:nth-of-type(2) > .cell:before {
+	content: counter(c2);
+}
+
+.rmine:nth-of-type(3):indeterminate ~ .field:nth-of-type(3) > .cell:before {
+	content: counter(c3);
+}
+
+.rmine:nth-of-type(4):indeterminate ~ .field:nth-of-type(4) > .cell:before {
+	content: counter(c4);
+}
+
+.rmine:nth-of-type(5):indeterminate ~ .field:nth-of-type(5) > .cell:before {
+	content: counter(c5);
+}
+
+.rmine:nth-of-type(6):indeterminate ~ .field:nth-of-type(6) > .cell:before {
+	content: counter(c6);
+}
+
+.rmine:nth-of-type(7):indeterminate ~ .field:nth-of-type(7) > .cell:before {
+	content: counter(c7);
+}
+
+.rmine:nth-of-type(8):indeterminate ~ .field:nth-of-type(8) > .cell:before {
+	content: counter(c8);
+}
+
+.rmine:nth-of-type(9):indeterminate ~ .field:nth-of-type(9) > .cell:before {
+	content: counter(c9);
+}
+
+.rmine:nth-of-type(10):indeterminate ~ .field:nth-of-type(10) > .cell:before {
+	content: counter(c10);
+}
+
+.rmine:nth-of-type(11):indeterminate ~ .field:nth-of-type(11) > .cell:before {
+	content: counter(c11);
+}
+
+.rmine:nth-of-type(12):indeterminate ~ .field:nth-of-type(12) > .cell:before {
+	content: counter(c12);
+}
+
+.rmine:nth-of-type(13):indeterminate ~ .field:nth-of-type(13) > .cell:before {
+	content: counter(c13);
+}
+
+.rmine:nth-of-type(14):indeterminate ~ .field:nth-of-type(14) > .cell:before {
+	content: counter(c14);
+}
+
+.rmine:nth-of-type(15):indeterminate ~ .field:nth-of-type(15) > .cell:before {
+	content: counter(c15);
+}
+
+.rmine:nth-of-type(16):indeterminate ~ .field:nth-of-type(16) > .cell:before {
+	content: counter(c16);
+}
+
+.rmine:nth-of-type(17):indeterminate ~ .field:nth-of-type(17) > .cell:before {
+	content: counter(c17);
+}
+
+.rmine:nth-of-type(18):indeterminate ~ .field:nth-of-type(18) > .cell:before {
+	content: counter(c18);
+}
+
+.rmine:nth-of-type(19):indeterminate ~ .field:nth-of-type(19) > .cell:before {
+	content: counter(c19);
+}
+
+.rmine:nth-of-type(20):indeterminate ~ .field:nth-of-type(20) > .cell:before {
+	content: counter(c20);
+}
+
+.rmine:nth-of-type(21):indeterminate ~ .field:nth-of-type(21) > .cell:before {
+	content: counter(c21);
+}
+
+.rmine:nth-of-type(22):indeterminate ~ .field:nth-of-type(22) > .cell:before {
+	content: counter(c22);
+}
+
+.rmine:nth-of-type(23):indeterminate ~ .field:nth-of-type(23) > .cell:before {
+	content: counter(c23);
+}
+
+.rmine:nth-of-type(24):indeterminate ~ .field:nth-of-type(24) > .cell:before {
+	content: counter(c24);
+}
+
+.rmine:nth-of-type(25):indeterminate ~ .field:nth-of-type(25) > .cell:before {
+	content: counter(c25);
+}
+
+.rmine:nth-of-type(26):indeterminate ~ .field:nth-of-type(26) > .cell:before {
+	content: counter(c26);
+}
+
+.rmine:nth-of-type(27):indeterminate ~ .field:nth-of-type(27) > .cell:before {
+	content: counter(c27);
+}
+
+.rmine:nth-of-type(28):indeterminate ~ .field:nth-of-type(28) > .cell:before {
+	content: counter(c28);
+}
+
+.rmine:nth-of-type(29):indeterminate ~ .field:nth-of-type(29) > .cell:before {
+	content: counter(c29);
+}
+
+.rmine:nth-of-type(30):indeterminate ~ .field:nth-of-type(30) > .cell:before {
+	content: counter(c30);
+}
+
+.rmine:nth-of-type(31):indeterminate ~ .field:nth-of-type(31) > .cell:before {
+	content: counter(c31);
+}
+
+.rmine:nth-of-type(32):indeterminate ~ .field:nth-of-type(32) > .cell:before {
+	content: counter(c32);
+}
+
+.rmine:nth-of-type(33):indeterminate ~ .field:nth-of-type(33) > .cell:before {
+	content: counter(c33);
+}
+
+.rmine:nth-of-type(34):indeterminate ~ .field:nth-of-type(34) > .cell:before {
+	content: counter(c34);
+}
+
+.rmine:nth-of-type(35):indeterminate ~ .field:nth-of-type(35) > .cell:before {
+	content: counter(c35);
+}
+
+.rmine:nth-of-type(36):indeterminate ~ .field:nth-of-type(36) > .cell:before {
+	content: counter(c36);
+}
+
+.rmine:nth-of-type(37):indeterminate ~ .field:nth-of-type(37) > .cell:before {
+	content: counter(c37);
+}
+
+.rmine:nth-of-type(38):indeterminate ~ .field:nth-of-type(38) > .cell:before {
+	content: counter(c38);
+}
+
+.rmine:nth-of-type(39):indeterminate ~ .field:nth-of-type(39) > .cell:before {
+	content: counter(c39);
+}
+
+.rmine:nth-of-type(40):indeterminate ~ .field:nth-of-type(40) > .cell:before {
+	content: counter(c40);
+}
+
+.rmine:nth-of-type(41):indeterminate ~ .field:nth-of-type(41) > .cell:before {
+	content: counter(c41);
+}
+
+.rmine:nth-of-type(42):indeterminate ~ .field:nth-of-type(42) > .cell:before {
+	content: counter(c42);
+}
+
+.rmine:nth-of-type(43):indeterminate ~ .field:nth-of-type(43) > .cell:before {
+	content: counter(c43);
+}
+
+.rmine:nth-of-type(44):indeterminate ~ .field:nth-of-type(44) > .cell:before {
+	content: counter(c44);
+}
+
+.rmine:nth-of-type(45):indeterminate ~ .field:nth-of-type(45) > .cell:before {
+	content: counter(c45);
+}
+
+.rmine:nth-of-type(46):indeterminate ~ .field:nth-of-type(46) > .cell:before {
+	content: counter(c46);
+}
+
+.rmine:nth-of-type(47):indeterminate ~ .field:nth-of-type(47) > .cell:before {
+	content: counter(c47);
+}
+
+.rmine:nth-of-type(48):indeterminate ~ .field:nth-of-type(48) > .cell:before {
+	content: counter(c48);
+}
+
+.rmine:nth-of-type(49):indeterminate ~ .field:nth-of-type(49) > .cell:before {
+	content: counter(c49);
+}
+
+.rmine:nth-of-type(50):indeterminate ~ .field:nth-of-type(50) > .cell:before {
+	content: counter(c50);
+}
+
+.rmine:nth-of-type(51):indeterminate ~ .field:nth-of-type(51) > .cell:before {
+	content: counter(c51);
+}
+
+.rmine:nth-of-type(52):indeterminate ~ .field:nth-of-type(52) > .cell:before {
+	content: counter(c52);
+}
+
+.rmine:nth-of-type(53):indeterminate ~ .field:nth-of-type(53) > .cell:before {
+	content: counter(c53);
+}
+
+.rmine:nth-of-type(54):indeterminate ~ .field:nth-of-type(54) > .cell:before {
+	content: counter(c54);
+}
+
+.rmine:nth-of-type(55):indeterminate ~ .field:nth-of-type(55) > .cell:before {
+	content: counter(c55);
+}
+
+.rmine:nth-of-type(56):indeterminate ~ .field:nth-of-type(56) > .cell:before {
+	content: counter(c56);
+}
+
+.rmine:nth-of-type(57):indeterminate ~ .field:nth-of-type(57) > .cell:before {
+	content: counter(c57);
+}
+
+.rmine:nth-of-type(58):indeterminate ~ .field:nth-of-type(58) > .cell:before {
+	content: counter(c58);
+}
+
+.rmine:nth-of-type(59):indeterminate ~ .field:nth-of-type(59) > .cell:before {
+	content: counter(c59);
+}
+
+.rmine:nth-of-type(60):indeterminate ~ .field:nth-of-type(60) > .cell:before {
+	content: counter(c60);
+}
+
+.rmine:nth-of-type(61):indeterminate ~ .field:nth-of-type(61) > .cell:before {
+	content: counter(c61);
+}
+
+.rmine:nth-of-type(62):indeterminate ~ .field:nth-of-type(62) > .cell:before {
+	content: counter(c62);
+}
+
+.rmine:nth-of-type(63):indeterminate ~ .field:nth-of-type(63) > .cell:before {
+	content: counter(c63);
+}
+
+.rmine:nth-of-type(64):indeterminate ~ .field:nth-of-type(64) > .cell:before {
+	content: counter(c64);
+}
+
+
+/*Shift auto-open overlays*/
+
+.field:nth-of-type(1) > .shifter:before {
+	content: counter(c1);
+}
+
+.field:nth-of-type(2) > .shifter:before {
+	content: counter(c2);
+}
+
+.field:nth-of-type(3) > .shifter:before {
+	content: counter(c3);
+}
+
+.field:nth-of-type(4) > .shifter:before {
+	content: counter(c4);
+}
+
+.field:nth-of-type(5) > .shifter:before {
+	content: counter(c5);
+}
+
+.field:nth-of-type(6) > .shifter:before {
+	content: counter(c6);
+}
+
+.field:nth-of-type(7) > .shifter:before {
+	content: counter(c7);
+}
+
+.field:nth-of-type(8) > .shifter:before {
+	content: counter(c8);
+}
+
+.field:nth-of-type(9) > .shifter:before {
+	content: counter(c9);
+}
+
+.field:nth-of-type(10) > .shifter:before {
+	content: counter(c10);
+}
+
+.field:nth-of-type(11) > .shifter:before {
+	content: counter(c11);
+}
+
+.field:nth-of-type(12) > .shifter:before {
+	content: counter(c12);
+}
+
+.field:nth-of-type(13) > .shifter:before {
+	content: counter(c13);
+}
+
+.field:nth-of-type(14) > .shifter:before {
+	content: counter(c14);
+}
+
+.field:nth-of-type(15) > .shifter:before {
+	content: counter(c15);
+}
+
+.field:nth-of-type(16) > .shifter:before {
+	content: counter(c16);
+}
+
+.field:nth-of-type(17) > .shifter:before {
+	content: counter(c17);
+}
+
+.field:nth-of-type(18) > .shifter:before {
+	content: counter(c18);
+}
+
+.field:nth-of-type(19) > .shifter:before {
+	content: counter(c19);
+}
+
+.field:nth-of-type(20) > .shifter:before {
+	content: counter(c20);
+}
+
+.field:nth-of-type(21) > .shifter:before {
+	content: counter(c21);
+}
+
+.field:nth-of-type(22) > .shifter:before {
+	content: counter(c22);
+}
+
+.field:nth-of-type(23) > .shifter:before {
+	content: counter(c23);
+}
+
+.field:nth-of-type(24) > .shifter:before {
+	content: counter(c24);
+}
+
+.field:nth-of-type(25) > .shifter:before {
+	content: counter(c25);
+}
+
+.field:nth-of-type(26) > .shifter:before {
+	content: counter(c26);
+}
+
+.field:nth-of-type(27) > .shifter:before {
+	content: counter(c27);
+}
+
+.field:nth-of-type(28) > .shifter:before {
+	content: counter(c28);
+}
+
+.field:nth-of-type(29) > .shifter:before {
+	content: counter(c29);
+}
+
+.field:nth-of-type(30) > .shifter:before {
+	content: counter(c30);
+}
+
+.field:nth-of-type(31) > .shifter:before {
+	content: counter(c31);
+}
+
+.field:nth-of-type(32) > .shifter:before {
+	content: counter(c32);
+}
+
+.field:nth-of-type(33) > .shifter:before {
+	content: counter(c33);
+}
+
+.field:nth-of-type(34) > .shifter:before {
+	content: counter(c34);
+}
+
+.field:nth-of-type(35) > .shifter:before {
+	content: counter(c35);
+}
+
+.field:nth-of-type(36) > .shifter:before {
+	content: counter(c36);
+}
+
+.field:nth-of-type(37) > .shifter:before {
+	content: counter(c37);
+}
+
+.field:nth-of-type(38) > .shifter:before {
+	content: counter(c38);
+}
+
+.field:nth-of-type(39) > .shifter:before {
+	content: counter(c39);
+}
+
+.field:nth-of-type(40) > .shifter:before {
+	content: counter(c40);
+}
+
+.field:nth-of-type(41) > .shifter:before {
+	content: counter(c41);
+}
+
+.field:nth-of-type(42) > .shifter:before {
+	content: counter(c42);
+}
+
+.field:nth-of-type(43) > .shifter:before {
+	content: counter(c43);
+}
+
+.field:nth-of-type(44) > .shifter:before {
+	content: counter(c44);
+}
+
+.field:nth-of-type(45) > .shifter:before {
+	content: counter(c45);
+}
+
+.field:nth-of-type(46) > .shifter:before {
+	content: counter(c46);
+}
+
+.field:nth-of-type(47) > .shifter:before {
+	content: counter(c47);
+}
+
+.field:nth-of-type(48) > .shifter:before {
+	content: counter(c48);
+}
+
+.field:nth-of-type(49) > .shifter:before {
+	content: counter(c49);
+}
+
+.field:nth-of-type(50) > .shifter:before {
+	content: counter(c50);
+}
+
+.field:nth-of-type(51) > .shifter:before {
+	content: counter(c51);
+}
+
+.field:nth-of-type(52) > .shifter:before {
+	content: counter(c52);
+}
+
+.field:nth-of-type(53) > .shifter:before {
+	content: counter(c53);
+}
+
+.field:nth-of-type(54) > .shifter:before {
+	content: counter(c54);
+}
+
+.field:nth-of-type(55) > .shifter:before {
+	content: counter(c55);
+}
+
+.field:nth-of-type(56) > .shifter:before {
+	content: counter(c56);
+}
+
+.field:nth-of-type(57) > .shifter:before {
+	content: counter(c57);
+}
+
+.field:nth-of-type(58) > .shifter:before {
+	content: counter(c58);
+}
+
+.field:nth-of-type(59) > .shifter:before {
+	content: counter(c59);
+}
+
+.field:nth-of-type(60) > .shifter:before {
+	content: counter(c60);
+}
+
+.field:nth-of-type(61) > .shifter:before {
+	content: counter(c61);
+}
+
+.field:nth-of-type(62) > .shifter:before {
+	content: counter(c62);
+}
+
+.field:nth-of-type(63) > .shifter:before {
+	content: counter(c63);
+}
+
+.field:nth-of-type(64) > .shifter:before {
+	content: counter(c64);
+}
+
+
+/* BOOM conditions */
+
+.rmine:nth-of-type(1):not(:indeterminate) ~ .field:nth-of-type(1) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(2):not(:indeterminate) ~ .field:nth-of-type(2) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(3):not(:indeterminate) ~ .field:nth-of-type(3) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(4):not(:indeterminate) ~ .field:nth-of-type(4) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(5):not(:indeterminate) ~ .field:nth-of-type(5) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(6):not(:indeterminate) ~ .field:nth-of-type(6) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(7):not(:indeterminate) ~ .field:nth-of-type(7) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(8):not(:indeterminate) ~ .field:nth-of-type(8) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(9):not(:indeterminate) ~ .field:nth-of-type(9) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(10):not(:indeterminate) ~ .field:nth-of-type(10) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(11):not(:indeterminate) ~ .field:nth-of-type(11) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(12):not(:indeterminate) ~ .field:nth-of-type(12) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(13):not(:indeterminate) ~ .field:nth-of-type(13) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(14):not(:indeterminate) ~ .field:nth-of-type(14) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(15):not(:indeterminate) ~ .field:nth-of-type(15) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(16):not(:indeterminate) ~ .field:nth-of-type(16) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(17):not(:indeterminate) ~ .field:nth-of-type(17) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(18):not(:indeterminate) ~ .field:nth-of-type(18) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(19):not(:indeterminate) ~ .field:nth-of-type(19) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(20):not(:indeterminate) ~ .field:nth-of-type(20) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(21):not(:indeterminate) ~ .field:nth-of-type(21) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(22):not(:indeterminate) ~ .field:nth-of-type(22) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(23):not(:indeterminate) ~ .field:nth-of-type(23) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(24):not(:indeterminate) ~ .field:nth-of-type(24) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(25):not(:indeterminate) ~ .field:nth-of-type(25) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(26):not(:indeterminate) ~ .field:nth-of-type(26) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(27):not(:indeterminate) ~ .field:nth-of-type(27) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(28):not(:indeterminate) ~ .field:nth-of-type(28) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(29):not(:indeterminate) ~ .field:nth-of-type(29) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(30):not(:indeterminate) ~ .field:nth-of-type(30) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(31):not(:indeterminate) ~ .field:nth-of-type(31) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(32):not(:indeterminate) ~ .field:nth-of-type(32) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(33):not(:indeterminate) ~ .field:nth-of-type(33) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(34):not(:indeterminate) ~ .field:nth-of-type(34) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(35):not(:indeterminate) ~ .field:nth-of-type(35) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(36):not(:indeterminate) ~ .field:nth-of-type(36) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(37):not(:indeterminate) ~ .field:nth-of-type(37) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(38):not(:indeterminate) ~ .field:nth-of-type(38) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(39):not(:indeterminate) ~ .field:nth-of-type(39) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(40):not(:indeterminate) ~ .field:nth-of-type(40) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(41):not(:indeterminate) ~ .field:nth-of-type(41) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(42):not(:indeterminate) ~ .field:nth-of-type(42) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(43):not(:indeterminate) ~ .field:nth-of-type(43) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(44):not(:indeterminate) ~ .field:nth-of-type(44) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(45):not(:indeterminate) ~ .field:nth-of-type(45) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(46):not(:indeterminate) ~ .field:nth-of-type(46) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(47):not(:indeterminate) ~ .field:nth-of-type(47) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(48):not(:indeterminate) ~ .field:nth-of-type(48) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(49):not(:indeterminate) ~ .field:nth-of-type(49) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(50):not(:indeterminate) ~ .field:nth-of-type(50) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(51):not(:indeterminate) ~ .field:nth-of-type(51) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(52):not(:indeterminate) ~ .field:nth-of-type(52) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(53):not(:indeterminate) ~ .field:nth-of-type(53) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(54):not(:indeterminate) ~ .field:nth-of-type(54) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(55):not(:indeterminate) ~ .field:nth-of-type(55) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(56):not(:indeterminate) ~ .field:nth-of-type(56) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(57):not(:indeterminate) ~ .field:nth-of-type(57) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(58):not(:indeterminate) ~ .field:nth-of-type(58) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(59):not(:indeterminate) ~ .field:nth-of-type(59) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(60):not(:indeterminate) ~ .field:nth-of-type(60) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(61):not(:indeterminate) ~ .field:nth-of-type(61) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(62):not(:indeterminate) ~ .field:nth-of-type(62) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(63):not(:indeterminate) ~ .field:nth-of-type(63) > .chk:checked {
+	counter-increment: cboom;
+}
+
+.rmine:nth-of-type(64):not(:indeterminate) ~ .field:nth-of-type(64) > .chk:checked {
+	counter-increment: cboom;
+}
+
+
+/* Win-fail conditions */
+
+.rmine:nth-of-type(1):indeterminate ~ .field:nth-of-type(1) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(2):indeterminate ~ .field:nth-of-type(2) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(3):indeterminate ~ .field:nth-of-type(3) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(4):indeterminate ~ .field:nth-of-type(4) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(5):indeterminate ~ .field:nth-of-type(5) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(6):indeterminate ~ .field:nth-of-type(6) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(7):indeterminate ~ .field:nth-of-type(7) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(8):indeterminate ~ .field:nth-of-type(8) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(9):indeterminate ~ .field:nth-of-type(9) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(10):indeterminate ~ .field:nth-of-type(10) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(11):indeterminate ~ .field:nth-of-type(11) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(12):indeterminate ~ .field:nth-of-type(12) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(13):indeterminate ~ .field:nth-of-type(13) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(14):indeterminate ~ .field:nth-of-type(14) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(15):indeterminate ~ .field:nth-of-type(15) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(16):indeterminate ~ .field:nth-of-type(16) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(17):indeterminate ~ .field:nth-of-type(17) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(18):indeterminate ~ .field:nth-of-type(18) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(19):indeterminate ~ .field:nth-of-type(19) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(20):indeterminate ~ .field:nth-of-type(20) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(21):indeterminate ~ .field:nth-of-type(21) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(22):indeterminate ~ .field:nth-of-type(22) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(23):indeterminate ~ .field:nth-of-type(23) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(24):indeterminate ~ .field:nth-of-type(24) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(25):indeterminate ~ .field:nth-of-type(25) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(26):indeterminate ~ .field:nth-of-type(26) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(27):indeterminate ~ .field:nth-of-type(27) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(28):indeterminate ~ .field:nth-of-type(28) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(29):indeterminate ~ .field:nth-of-type(29) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(30):indeterminate ~ .field:nth-of-type(30) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(31):indeterminate ~ .field:nth-of-type(31) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(32):indeterminate ~ .field:nth-of-type(32) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(33):indeterminate ~ .field:nth-of-type(33) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(34):indeterminate ~ .field:nth-of-type(34) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(35):indeterminate ~ .field:nth-of-type(35) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(36):indeterminate ~ .field:nth-of-type(36) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(37):indeterminate ~ .field:nth-of-type(37) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(38):indeterminate ~ .field:nth-of-type(38) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(39):indeterminate ~ .field:nth-of-type(39) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(40):indeterminate ~ .field:nth-of-type(40) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(41):indeterminate ~ .field:nth-of-type(41) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(42):indeterminate ~ .field:nth-of-type(42) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(43):indeterminate ~ .field:nth-of-type(43) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(44):indeterminate ~ .field:nth-of-type(44) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(45):indeterminate ~ .field:nth-of-type(45) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(46):indeterminate ~ .field:nth-of-type(46) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(47):indeterminate ~ .field:nth-of-type(47) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(48):indeterminate ~ .field:nth-of-type(48) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(49):indeterminate ~ .field:nth-of-type(49) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(50):indeterminate ~ .field:nth-of-type(50) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(51):indeterminate ~ .field:nth-of-type(51) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(52):indeterminate ~ .field:nth-of-type(52) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(53):indeterminate ~ .field:nth-of-type(53) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(54):indeterminate ~ .field:nth-of-type(54) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(55):indeterminate ~ .field:nth-of-type(55) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(56):indeterminate ~ .field:nth-of-type(56) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(57):indeterminate ~ .field:nth-of-type(57) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(58):indeterminate ~ .field:nth-of-type(58) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(59):indeterminate ~ .field:nth-of-type(59) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(60):indeterminate ~ .field:nth-of-type(60) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(61):indeterminate ~ .field:nth-of-type(61) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(62):indeterminate ~ .field:nth-of-type(62) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(63):indeterminate ~ .field:nth-of-type(63) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+.rmine:nth-of-type(64):indeterminate ~ .field:nth-of-type(64) > .flg:checked {
+	counter-increment: cwin cfail;
+}
+
+
+/* Make visible mine symbols */
+
+.rmine:nth-of-type(1):not(:indeterminate) ~ .field:nth-of-type(1) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(2):not(:indeterminate) ~ .field:nth-of-type(2) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(3):not(:indeterminate) ~ .field:nth-of-type(3) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(4):not(:indeterminate) ~ .field:nth-of-type(4) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(5):not(:indeterminate) ~ .field:nth-of-type(5) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(6):not(:indeterminate) ~ .field:nth-of-type(6) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(7):not(:indeterminate) ~ .field:nth-of-type(7) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(8):not(:indeterminate) ~ .field:nth-of-type(8) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(9):not(:indeterminate) ~ .field:nth-of-type(9) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(10):not(:indeterminate) ~ .field:nth-of-type(10) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(11):not(:indeterminate) ~ .field:nth-of-type(11) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(12):not(:indeterminate) ~ .field:nth-of-type(12) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(13):not(:indeterminate) ~ .field:nth-of-type(13) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(14):not(:indeterminate) ~ .field:nth-of-type(14) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(15):not(:indeterminate) ~ .field:nth-of-type(15) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(16):not(:indeterminate) ~ .field:nth-of-type(16) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(17):not(:indeterminate) ~ .field:nth-of-type(17) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(18):not(:indeterminate) ~ .field:nth-of-type(18) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(19):not(:indeterminate) ~ .field:nth-of-type(19) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(20):not(:indeterminate) ~ .field:nth-of-type(20) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(21):not(:indeterminate) ~ .field:nth-of-type(21) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(22):not(:indeterminate) ~ .field:nth-of-type(22) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(23):not(:indeterminate) ~ .field:nth-of-type(23) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(24):not(:indeterminate) ~ .field:nth-of-type(24) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(25):not(:indeterminate) ~ .field:nth-of-type(25) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(26):not(:indeterminate) ~ .field:nth-of-type(26) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(27):not(:indeterminate) ~ .field:nth-of-type(27) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(28):not(:indeterminate) ~ .field:nth-of-type(28) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(29):not(:indeterminate) ~ .field:nth-of-type(29) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(30):not(:indeterminate) ~ .field:nth-of-type(30) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(31):not(:indeterminate) ~ .field:nth-of-type(31) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(32):not(:indeterminate) ~ .field:nth-of-type(32) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(33):not(:indeterminate) ~ .field:nth-of-type(33) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(34):not(:indeterminate) ~ .field:nth-of-type(34) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(35):not(:indeterminate) ~ .field:nth-of-type(35) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(36):not(:indeterminate) ~ .field:nth-of-type(36) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(37):not(:indeterminate) ~ .field:nth-of-type(37) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(38):not(:indeterminate) ~ .field:nth-of-type(38) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(39):not(:indeterminate) ~ .field:nth-of-type(39) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(40):not(:indeterminate) ~ .field:nth-of-type(40) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(41):not(:indeterminate) ~ .field:nth-of-type(41) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(42):not(:indeterminate) ~ .field:nth-of-type(42) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(43):not(:indeterminate) ~ .field:nth-of-type(43) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(44):not(:indeterminate) ~ .field:nth-of-type(44) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(45):not(:indeterminate) ~ .field:nth-of-type(45) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(46):not(:indeterminate) ~ .field:nth-of-type(46) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(47):not(:indeterminate) ~ .field:nth-of-type(47) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(48):not(:indeterminate) ~ .field:nth-of-type(48) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(49):not(:indeterminate) ~ .field:nth-of-type(49) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(50):not(:indeterminate) ~ .field:nth-of-type(50) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(51):not(:indeterminate) ~ .field:nth-of-type(51) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(52):not(:indeterminate) ~ .field:nth-of-type(52) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(53):not(:indeterminate) ~ .field:nth-of-type(53) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(54):not(:indeterminate) ~ .field:nth-of-type(54) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(55):not(:indeterminate) ~ .field:nth-of-type(55) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(56):not(:indeterminate) ~ .field:nth-of-type(56) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(57):not(:indeterminate) ~ .field:nth-of-type(57) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(58):not(:indeterminate) ~ .field:nth-of-type(58) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(59):not(:indeterminate) ~ .field:nth-of-type(59) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(60):not(:indeterminate) ~ .field:nth-of-type(60) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(61):not(:indeterminate) ~ .field:nth-of-type(61) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(62):not(:indeterminate) ~ .field:nth-of-type(62) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(63):not(:indeterminate) ~ .field:nth-of-type(63) > .icon {
+	display: block;
+}
+
+.rmine:nth-of-type(64):not(:indeterminate) ~ .field:nth-of-type(64) > .icon {
+	display: block;
+}

@@ -1,0 +1,861 @@
+<head>
+	<title>Minesweeper NoJS</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="m_style.css">
+	<link rel="stylesheet" href="m_generated.css">
+</head>
+
+<body>
+	<form>
+		<!--This is "Randomizer", and also "Main menu"-->
+		<div id="generator">
+			<div id="caption"><p>MINESWEEPER</p></div>
+
+			<!--Animated radiobuttons (generated)-->
+			<input type="radio" class="step step1 hei1" name="g1">
+			<input type="radio" class="step step1 hei2" name="g2">
+			<input type="radio" class="step step1 hei3" name="g3">
+			<input type="radio" class="step step1 hei4" name="g4">
+			<input type="radio" class="step step1 hei5" name="g5">
+			<input type="radio" class="step step1 hei6" name="g1">
+			<input type="radio" class="step step1 hei7" name="g2">
+			<input type="radio" class="step step1 hei8" name="g3">
+			<input type="radio" class="step step1 hei9" name="g4">
+			<input type="radio" class="step step1 hei10" name="g5">
+			<input type="radio" class="step step2 hei1" name="g6">
+			<input type="radio" class="step step2 hei2" name="g7">
+			<input type="radio" class="step step2 hei3" name="g8">
+			<input type="radio" class="step step2 hei4" name="g9">
+			<input type="radio" class="step step2 hei5" name="g6">
+			<input type="radio" class="step step2 hei6" name="g7">
+			<input type="radio" class="step step2 hei7" name="g8">
+			<input type="radio" class="step step2 hei8" name="g9">
+			<input type="radio" class="step step3 hei1" name="g10">
+			<input type="radio" class="step step3 hei2" name="g11">
+			<input type="radio" class="step step3 hei3" name="g12">
+			<input type="radio" class="step step3 hei4" name="g13">
+			<input type="radio" class="step step3 hei5" name="g14">
+			<input type="radio" class="step step3 hei6" name="g10">
+			<input type="radio" class="step step3 hei7" name="g11">
+			<input type="radio" class="step step3 hei8" name="g12">
+			<input type="radio" class="step step3 hei9" name="g13">
+			<input type="radio" class="step step3 hei10" name="g14">
+			<input type="radio" class="step step4 hei1" name="g15">
+			<input type="radio" class="step step4 hei2" name="g16">
+			<input type="radio" class="step step4 hei3" name="g17">
+			<input type="radio" class="step step4 hei4" name="g18">
+			<input type="radio" class="step step4 hei5" name="g15">
+			<input type="radio" class="step step4 hei6" name="g16">
+			<input type="radio" class="step step4 hei7" name="g17">
+			<input type="radio" class="step step4 hei8" name="g18">
+			<input type="radio" class="step step5 hei1" name="g32">
+			<input type="radio" class="step step5 hei2" name="g19">
+			<input type="radio" class="step step5 hei3" name="g20">
+			<input type="radio" class="step step5 hei4" name="g21">
+			<input type="radio" class="step step5 hei5" name="g31">
+			<input type="radio" class="step step5 hei6" name="g22">
+			<input type="radio" class="step step5 hei7" name="g23">
+			<input type="radio" class="step step5 hei8" name="g24">
+			<input type="radio" class="step step5 hei9" name="g31">
+			<input type="radio" class="step step5 hei10" name="g25">
+			<input type="radio" class="step step5 hei11" name="g26">
+			<input type="radio" class="step step5 hei12" name="g27">
+			<input type="radio" class="step step5 hei13" name="g32">
+			<input type="radio" class="step step5 hei14" name="g28">
+			<input type="radio" class="step step5 hei15" name="g29">
+			<input type="radio" class="step step5 hei16" name="g30">
+			<input type="radio" class="step step5 hei17" name="g32">
+
+			<!--Fake buttons-->
+			<div id="butt1" class="fbutton">
+				<p>Generate<br>field</p>
+			</div>
+			<div id="butt2" class="fbutton">
+				<p>Create<br>mines</p>
+			</div>
+			<div id="butt3" class="fbutton">
+				<p>Place<br>mines</p>
+			</div>
+			<div id="butt4" class="fbutton">
+				<p>Prepare<br>flags</p>
+			</div>
+			<div id="butt5" class="fbutton">
+				<p>GO!</p>
+			</div>
+
+			<!--Prevent from clicking out from "button" area-->
+			<div id="shield-top" class="shield"></div>
+			<div id="shield-bottom" class="shield"></div>
+
+			<!--Simple hints-->
+			<div id="hint" title="This is not a slider"><p><span>↑</span>click</p></div>
+			<div id="description">
+				<p>HTML+CSS game without JS</p>
+				<p>Tested in Firefox, Opera, and Chromium</p>
+			</div>
+			
+			<!--Set width for parent div-->
+			<div id="expander"></div>
+
+		</div>
+
+		<!--Click mode (workaround for lack of right click)-->
+		<input type="radio" class="flagmode" id="fla1" name="fla" checked>
+		<div></div>
+		<input type="radio" class="flagmode" id="fla2" name="fla">
+		<div></div>
+		<input type="radio" class="flagmode" id="fla3" name="fla">
+		<div></div>
+
+		<!--Game board-->
+		<div class="container">
+
+			<!--Hidden array (generated)-->
+			<input type="radio" class="rmine" name="g31">
+			<input type="radio" class="rmine" name="g26">
+			<input type="radio" class="rmine" name="g15">
+			<input type="radio" class="rmine" name="g17">
+			<input type="radio" class="rmine" name="g19">
+			<input type="radio" class="rmine" name="g20">
+			<input type="radio" class="rmine" name="g28">
+			<input type="radio" class="rmine" name="g32">
+			<input type="radio" class="rmine" name="g27">
+			<input type="radio" class="rmine" name="g27">
+			<input type="radio" class="rmine" name="g16">
+			<input type="radio" class="rmine" name="g18">
+			<input type="radio" class="rmine" name="g5">
+			<input type="radio" class="rmine" name="g19">
+			<input type="radio" class="rmine" name="g28">
+			<input type="radio" class="rmine" name="g20">
+			<input type="radio" class="rmine" name="g26">
+			<input type="radio" class="rmine" name="g25">
+			<input type="radio" class="rmine" name="g18">
+			<input type="radio" class="rmine" name="g16">
+			<input type="radio" class="rmine" name="g15">
+			<input type="radio" class="rmine" name="g4">
+			<input type="radio" class="rmine" name="g2">
+			<input type="radio" class="rmine" name="g1">
+			<input type="radio" class="rmine" name="g25">
+			<input type="radio" class="rmine" name="g14">
+			<input type="radio" class="rmine" name="g10">
+			<input type="radio" class="rmine" name="g12">
+			<input type="radio" class="rmine" name="g17">
+			<input type="radio" class="rmine" name="g2">
+			<input type="radio" class="rmine" name="g4">
+			<input type="radio" class="rmine" name="g3">
+			<input type="radio" class="rmine" name="g12">
+			<input type="radio" class="rmine" name="g13">
+			<input type="radio" class="rmine" name="g11">
+			<input type="radio" class="rmine" name="g8">
+			<input type="radio" class="rmine" name="g3">
+			<input type="radio" class="rmine" name="g1">
+			<input type="radio" class="rmine" name="g5">
+			<input type="radio" class="rmine" name="g21">
+			<input type="radio" class="rmine" name="g10">
+			<input type="radio" class="rmine" name="g11">
+			<input type="radio" class="rmine" name="g13">
+			<input type="radio" class="rmine" name="g6">
+			<input type="radio" class="rmine" name="g7">
+			<input type="radio" class="rmine" name="g9">
+			<input type="radio" class="rmine" name="g21">
+			<input type="radio" class="rmine" name="g22">
+			<input type="radio" class="rmine" name="g24">
+			<input type="radio" class="rmine" name="g30">
+			<input type="radio" class="rmine" name="g23">
+			<input type="radio" class="rmine" name="g14">
+			<input type="radio" class="rmine" name="g9">
+			<input type="radio" class="rmine" name="g7">
+			<input type="radio" class="rmine" name="g29">
+			<input type="radio" class="rmine" name="g29">
+			<input type="radio" class="rmine" name="g31">
+			<input type="radio" class="rmine" name="g30">
+			<input type="radio" class="rmine" name="g24">
+			<input type="radio" class="rmine" name="g23">
+			<input type="radio" class="rmine" name="g8">
+			<input type="radio" class="rmine" name="g6">
+			<input type="radio" class="rmine" name="g22">
+			<input type="radio" class="rmine" name="g32">
+
+			<!--
+				Visible board fields (generated).
+				.chk - main checkbox (sic!) to open fields (radio used to prevent unchecking with spacebar).
+				.flg - set/remove flag.
+				.achk - overlay input of 5 groups; auto-open safe areas.
+				.overlay - cover 3x3 area when .achk group is touched; make auto-open visible.
+				.shifter - move .achk and .overlay from game board when mines present on ajacent fields.
+				.cell - field square; also displays flag icon.
+				.icon - mine icon "drawn with borders".
+			-->
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_lt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_lt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_lt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_lt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_lt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_lt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_lt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_lt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_lt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_lt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_lt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_lt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_lt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_lt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_lt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_mid'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_mid'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rt'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_ld'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_ld'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_ld'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_mid'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_mid'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rd'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rd'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rd'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_ld'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_ld'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_ld'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_ld'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rd'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rd'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rd'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rd'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_ld'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_ld'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_ld'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_ld'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rd'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rd'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rd'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rd'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_ld'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_ld'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_ld'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_ld'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rd'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rd'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rd'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+			
+			<div class='field'>
+				<input type='radio' autocomplete='off' class='chk'>
+				<input type='checkbox' autocomplete='off' class='flg'>
+				<div class='shifter'></div>
+				<input type='radio' autocomplete='off' class='achk' name='gr_rd'>
+				<div class='overlay'></div>
+				<div class='cell'></div>
+				<div class='icon'></div>
+			</div>
+				
+			
+			<!--Game Win/Fail-->
+			<div id="win-board">
+				<div id="win-show"></div>
+				<div id="win-placeholder">
+					<div class="message-dimmer"></div>
+					<div id="win-fail-placeholder">
+						<div id="fail-show"></div>
+						<div id="fail"><p>Fail!</p></div>
+						<div id="win"><p>Win!</p></div>
+					</div>
+				</div>
+			</div>
+
+			<!--Game Over-->
+			<div id="boom">
+				<div id="boom-show"></div>
+				<div id="boom-placeholder">
+					<div class="message-dimmer"></div>
+					<div id="boom-message"><p>Boom!</p></div>
+				</div>
+			</div>
+
+		</div>
+
+		<div id="flag-counter"></div>
+		<div id="help" title="the">
+			<p>Must set all flags correctly to win game</p>
+			<button type="reset" class="fbutton" id="nbutton">New</button>
+		</div>
+
+	</form>
+</body>
