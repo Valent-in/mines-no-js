@@ -974,17 +974,32 @@ form {
 }
 
 #nbutton {
-	position:relative;
-	display:inline-block;
-	height:32px;
-	top:0;
-	color:#3c3c3c;
+	position: relative;
+	display: inline-block;
+	height: 32px;
+	width: 104px;
+	color: #3c3c3c;
+	border: 2px solid #eeeeee;
 	background-color: #97bb97;
+	font-weight:bold;
+	font-family:sans-serif;
+	font-size:14px;
+	border-radius: 0;
+	box-sizing:border-box;
 }
 
 #nbutton:after {
-	top:3px;
+	content: "";
+	display: block;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: -13px;
+	top: 3px;
+	transform: rotate(45deg);
 	background-color: #97bb97;
+	border-top: 2px solid #eeeeee;
+	border-right: 2px solid #eeeeee;
 }
 
 #help p {
