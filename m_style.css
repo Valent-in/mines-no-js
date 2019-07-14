@@ -493,7 +493,7 @@ body {
 .icon {
 	position: absolute;
 	content: "";
-	z-index: 5;
+	z-index: 6;
 	border: 7px solid #5c5c5c;
 	width: 4px;
 	height: 4px;
@@ -507,7 +507,7 @@ body {
 .icon:before {
 	position: absolute;
 	content: "";
-	z-index: 5;
+	z-index: 6;
 	border-left: 3px solid #5c5c5c;
 	border-right: 3px solid #5c5c5c;
 	border-top: 3px solid transparent;
@@ -522,7 +522,7 @@ body {
 .icon:after {
 	position: absolute;
 	content: "";
-	z-index: 5;
+	z-index: 6;
 	border-top: 3px solid #5c5c5c;
 	border-bottom: 3px solid #5c5c5c;
 	border-left: 3px solid transparent;
@@ -556,7 +556,7 @@ body {
 	font-size: 24px;
 	font-weight: bold;
 	letter-spacing: 30px;
-	z-index: 2;
+	z-index: 3;
 }
 
 .cell:after {
@@ -601,6 +601,10 @@ body {
 	display: none;
 }
 
+.chk:checked + .flg:not(:checked) {
+	pointer-events: none;
+}
+
 .flg {
 	position: absolute;
 	top: 0;
@@ -619,7 +623,7 @@ body {
 	width: 40px;
 	height: 40px;
 	counter-increment: cwin;
-	z-index: 3;
+	z-index: 4;
 }
 
 .flg:hover ~ .cell:after {
@@ -634,7 +638,7 @@ body {
 	border-top: solid red 7px;
 	border-left: solid gray 2px;
 	opacity: 1;
-	z-index: 6;
+	z-index: 7;
 }
 
 
@@ -660,7 +664,7 @@ body {
 	pointer-events: none;
 	opacity: 0;
 	font-size: 1px;
-	z-index: 1;
+	z-index: 2;
 }
 
 
@@ -689,7 +693,7 @@ body {
 	height: 100%;
 	background-color: rgba(238, 238, 238, 0.4);
 	pointer-events: none;
-	z-index: 4;
+	z-index: 5;
 }
 
 #boom {
