@@ -954,7 +954,26 @@ body {
 	font-weight:bold;
 	font-family:sans-serif;
 	font-size:16px;
-	counter-increment: cwin -10;
+	counter-increment: cwin -110;
+}
+
+#flag-counter > div {
+	position:relative;
+	display: inline-block;
+	width:0;
+}
+
+#flag-counter > div > div {
+	background-color: #ececec;
+	display: inline-block;
+	position:abslute;
+	color: transparent;
+}
+
+#flag-counter > div > div:before {
+	position:absolute;
+	color: #3c3c3c;
+	content:":";
 }
 
 #flag-counter:before {
