@@ -1036,3 +1036,12 @@ body {
 	display: inline-block;
 	margin-right: 10px;
 }
+
+#version {
+	position:absolute;
+	right:0;
+	bottom:0;
+	font-family: sans-serif;
+	font-size: 10px;
+	color: #3c3c3c;
+}
