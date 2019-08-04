@@ -1,0 +1,37 @@
+<script>
+
+	var step = 1;
+
+	makeColumn(0, 5, step++);
+	makeColumn(5, 4, step++);
+	makeColumn(9, 5, step++);
+	makeColumn(14, 4, step++);
+
+	// Increase probability to "roll" 31 or 32 (to place mines in corners)
+	writeRange(1, 1, step, 0, 31); // Start 5-th column with 32
+	for (var i = 0; i < 4; i++) {
+		writeRange(i * 3 + 1, i * 3 + 3, step, 1 + i, 18);
+		writeRange(1, 1, step, i * 4 + 4, Math.floor(i / 2) + 30); // Insert 31 or 32 after every 3 elements 
+	}
+
+
+	function makeColumn(start, count, colNumber) {
+		writeRange(1, count, colNumber, 0, start);
+		writeRange(1, count, colNumber, count, start);
+	}
+
+	function writeRange(start, end, colNumber, heightShift, nameShift) {
+		var st1 = "&ltinput type=\"radio\" class=\"step step";
+		var st2 = " hei";
+		var st3 = "\" name=\"g";
+		var st4 = "\"&gt<br>";
+
+		// <input type="radio" class="step [stepX] [heightX]" name="[gX]">
+		for (var i = start; i <= end; i++) {
+			var hei = i + heightShift;
+			var gr = i + nameShift;
+			document.write(st1 + colNumber + st2 + hei + st3 + gr + st4)
+		}
+	}
+
+</script>

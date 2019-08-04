@@ -1,0 +1,52 @@
+<head>
+	<style>
+		div {
+			width: 320px;
+			overflow: visible;
+		}
+
+		div div {
+			width: 40px;
+			height: 40px;
+			display: inline-block;
+			border: 1px solid blue;
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+
+<body>
+	<script>
+
+		var pattern =
+			"31	26	15	17	19	20	28	32	" +
+
+			"27	27	16	18	5	19	28	20	" +
+
+			"26	25	18	16	15	4	2	1	" +
+
+			"25	14	10	12	17	2	4	3	" +
+
+			"12	13	11	8	3	1	5	21	" +
+
+			"10	11	13	6	7	9	21	22	" +
+
+			"24	30	23	14	9	7	29	29	" +
+
+			"31	30	24	23	8	6	22	32";
+
+
+		var mines = pattern.split("\t");
+
+		document.write("<div>"); // Debug info
+		for (var i = 0; i < 64; i++)
+			document.write("<div>" + mines[i] + "</div>");
+		document.write("</div>");
+
+		for (var i = 0; i < 64; i++) {
+			var name = "name=\"g" + mines[i] + "\"";
+			document.write("&ltinput type=\"radio\" class=\"rmine\" " + name + "&gt<br>");
+		}
+
+	</script>
+</body>
