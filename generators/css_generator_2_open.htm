@@ -1,0 +1,92 @@
+<pre>
+<p>/* Apply "open" counters for fields */</p>
+<script>
+	var st1 = ".rmine:nth-of-type(";
+	var st2 = "):indeterminate ~ .field:nth-of-type("
+	var st3 = ") > .chk:checked ~ .achk {\n\tcounter-increment: copen;\n}\n\n"
+
+	for (var i = 1; i <= 64; i++)
+		document.write(st1 + i + st2 + i + st3);
+</script>
+<p>/* Apply and SET "open" counters for auto-opened fields */</p>
+<script>
+	var st1 = ".rmine:nth-of-type(";
+	var st2 = "):indeterminate ~ ";
+	var st3 = ".field:nth-of-type(";
+	var st4 = ") > .achk";
+	var st5 = " {\n\tcounter-increment: copen;\n}\n\n"
+
+	for (var i = 1; i <= 64; i++) {
+		var str = "";
+		var block = getBlock(i - 1);
+		
+		for (var j = 0; j < block.length; j++) {
+			str = "";
+			
+			for (var k = 0; k < block.length; k++)
+				str += st1 + block[k] + st2
+			
+			if (block[j] != i)
+				//document.write("+++");
+				document.write(str + st3 + block[j] + st4 + (j == block.length - 1 ? "" : ",\n"));
+		}
+		document.write(st5);
+	}
+	
+			
+	function getBlock(center) {
+		var ret = [];
+		
+		var beginX = center % 8 - 1;
+		var beginY = Math.floor(center / 8) - 1;
+		
+		for (var i = 0; i < 3; i++)
+			for (var j = 0; j < 3; j++) {
+				if (toLinear(beginX + j, beginY + i) >= 0)
+					ret.push(toLinear(beginX + j, beginY + i) + 1);
+			}
+			
+		return ret;
+		
+		
+		function toLinear(x, y) {
+			if (x < 0 || x >= 8 || y < 0 || y >= 8)
+				return -1;
+			
+			return y * 8 + x;
+		}
+	}
+</script>
+<p>/* But NOT SET counters for "zero"-fields */</p>
+<script>
+	// Using functions and variables from previous script
+	st4 = ") > .achk:indeterminate";
+	var st5 = " {\n\tcounter-increment: copen 0;\n}\n\n"
+
+	for (var i = 1; i <= 64; i++) {
+		var str = "";
+		var block = getBlock(i - 1);
+		
+		for (var j = 0; j < block.length; j++)
+			str += st1 + block[j] + st2
+		
+		document.write(str + st3 + i + st4 + st5);
+	}
+</script>
+<p>/* Increment counters for "zero"-fields only on user click */</p>
+<script>
+	// Using functions and variables from previous script
+	st4 = ") > .achk:not(:indeterminate)";
+	st5 = " {\n\tcounter-increment: copen;\n}\n\n"
+
+	for (var i = 1; i <= 64; i++) {
+		var str = "";
+		var block = getBlock(i - 1);
+		
+		for (var j = 0; j < block.length; j++)
+			str += st1 + block[j] + st2
+		
+		document.write(str + st3 + i + st4 + st5);
+	}
+</script>
+</pre>

@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="m_style.css">
 	<link rel="stylesheet" href="m_generated.css">
+	<link rel="stylesheet" href="m_generated_open.css">
 </head>
 
 <body>
@@ -828,15 +829,15 @@
 			</div>
 				
 			
-			<!--Game Win/Fail-->
-			<div id="win-board">
+			<!--Game Win/Fail (by flags)-->
+			<div id="win-flags">
 				<div id="win-show"></div>
 				<div id="win-placeholder">
 					<div class="message-dimmer"></div>
 					<div id="win-fail-placeholder">
 						<div id="fail-show"></div>
-						<div id="fail"><p>Fail!</p></div>
-						<div id="win"><p>Win!</p></div>
+						<div id="fail-message"><p>Fail!</p></div>
+						<div id="win-message-flags"><p>Win!</p></div>
 					</div>
 				</div>
 			</div>
@@ -849,18 +850,26 @@
 					<div id="boom-message"><p>Boom!</p></div>
 				</div>
 			</div>
+			
+			<!--Game Win-->
+			<div id="win-open">
+				<div id="win-open-show"></div>
+				<div id="win-open-placeholder">
+					<div class="message-dimmer"></div>
+					<div id="win-message"><p>Win!</p></div>
+				</div>
+			</div>
 
 		</div>
 
 		<!--Dirty trick to avoid additional CSS counter-->
 		<div id="flag-counter"><div><div>-1</div></div></div>
 		
-		<div id="help" title="the">
-			<p>Must set all flags correctly to win game</p>
+		<div id="new-game" title="Game">
 			<button type="reset" id="nbutton">New</button>
 		</div>
 
 	</form>
 	
-	<p id="version">v1.95</p>
+	<p id="version">v1.96</p>
 </body>

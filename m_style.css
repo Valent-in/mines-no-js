@@ -452,7 +452,7 @@ body {
 	top: 60px;
 	width: 320px;
 	position: absolute;
-	counter-reset: cwin 0 cboom 9 cfail 9;
+	counter-reset: cwin 0 cboom 9 cfail 9 copen 46;
 	overflow: hidden;
 	left: 105px;
 	border-radius: 2px;
@@ -684,7 +684,8 @@ body {
 }
 
 
-/* Win-fail messages */
+/* Game End messages */
+
 .message-dimmer {
 	position: absolute;
 	top: 0;
@@ -696,6 +697,19 @@ body {
 	z-index: 5;
 }
 
+#boom-message p, #win-message-flags p, #fail-message p, #win-message p {
+	margin: 0 auto;
+	margin-top: 130px;
+	width: 60%;
+	text-align:center;
+	font-size: 40px;
+	font-weight: bold;
+	background-color: rgba(238, 238, 238, 0.5);
+	border-radius: 4px;
+}
+
+
+/* Boom message */
 #boom {
 	position: absolute;
 	top: 0;
@@ -730,23 +744,55 @@ body {
 	content: counter(cboom);
 }
 
-#boom-message p, #win p, #fail p {
-	margin: 0 auto;
-	margin-top: 130px;
-	width: 60%;
-	text-align:center;
-	font-size: 40px;
-	font-weight: bold;
-	background-color: rgba(238, 238, 238, 0.5);
-	border-radius: 4px;
-}
-
 #boom-message p {
 	color: red;
 	border: 2px solid red;
 }
 
-#win-board {
+
+/* Win message */
+#win-open {
+	position: absolute;
+	top: 0;
+	left: -962px;
+	height: 320px;
+	width: 1282px;
+	pointer-events: none;
+}
+
+#win-open-placeholder {
+	position: relative;
+	width: 320px;
+	height: 320px;
+	float: left;
+}
+
+#win-message {
+	position: absolute;
+	width: 320px;
+	height: 320px;
+	z-index: 10;
+	pointer-events: auto;
+}
+
+#win-open-show {
+	float: left;
+}
+
+#win-open-show:before {
+	letter-spacing: 320px;
+	font-size: 1px;
+	content: counter(copen);
+}
+
+#win-message p {
+	color: blue;
+	border: 2px solid blue;
+}
+
+
+/* Win-Fail by falgs */
+#win-flags {
 	position: absolute;
 	top: 0;
 	left: -642px;
@@ -766,26 +812,26 @@ body {
 	position: relative;
 }
 
-#win {
+#win-message-flags {
 	position: relative;
 	display: inline-block;
 	width: 320px;
 	height: 320px;
 }
 
-#fail {
+#fail-message {
 	position: relative;
 	display: inline-block;
 	width: 320px;
 	height: 320px;
 }
 
-#win p {
+#win-message-flags p {
 	color: green;
 	border: 2px solid green;
 }
 
-#fail p {
+#fail-message p {
 	color: magenta;
 	border: 2px solid magenta;
 }
@@ -991,16 +1037,10 @@ body {
 
 /* Bottom */
 
-#help {
+#new-game {
 	position:absolute;
 	top: 410px;
 	right: 20px;
-
-	color: #eeeeee;
-	font-weight: bold;
-	font-family: sans-serif;
-	font-size: 16px;
-	text-shadow: -2px 0 0 #979797;
 }
 
 #nbutton {
@@ -1030,11 +1070,6 @@ body {
 	background-color: #97bb97;
 	border-top: 2px solid #eeeeee;
 	border-right: 2px solid #eeeeee;
-}
-
-#help p {
-	display: inline-block;
-	margin-right: 10px;
 }
 
 #version {
