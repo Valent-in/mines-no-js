@@ -1,4 +1,4 @@
-/* Apply "open" counters for single field */
+/* Apply "open" counters for fields */
 
 .rmine:nth-of-type(1):indeterminate ~ .field:nth-of-type(1) > .chk:checked ~ .achk {
 	counter-increment: copen;
@@ -867,8 +867,7 @@
 
 .rmine:nth-of-type(55):indeterminate ~ .rmine:nth-of-type(56):indeterminate ~ .rmine:nth-of-type(63):indeterminate ~ .rmine:nth-of-type(64):indeterminate ~ .field:nth-of-type(55) > .achk,
 .rmine:nth-of-type(55):indeterminate ~ .rmine:nth-of-type(56):indeterminate ~ .rmine:nth-of-type(63):indeterminate ~ .rmine:nth-of-type(64):indeterminate ~ .field:nth-of-type(56) > .achk,
-.rmine:nth-of-type(55):indeterminate ~ .rmine:nth-of-type(56):indeterminate ~ .rmine:nth-of-type(63):indeterminate ~ .rmine:nth-of-type(64):indeterminate ~ .field:nth-of-type(63) > .achk,
- {
+.rmine:nth-of-type(55):indeterminate ~ .rmine:nth-of-type(56):indeterminate ~ .rmine:nth-of-type(63):indeterminate ~ .rmine:nth-of-type(64):indeterminate ~ .field:nth-of-type(63) > .achk {
 	counter-increment: copen;
 }
 

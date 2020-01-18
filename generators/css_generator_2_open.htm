@@ -26,9 +26,12 @@
 			for (var k = 0; k < block.length; k++)
 				str += st1 + block[k] + st2
 			
-			if (block[j] != i)
-				//document.write("+++");
-				document.write(str + st3 + block[j] + st4 + (j == block.length - 1 ? "" : ",\n"));
+			if (block[j] != i) {
+				var nxt = "";
+				if ((j != block.length - 1) && !(i == 64 && block[j] == 63))
+					nxt = ",\n";
+				document.write(str + st3 + block[j] + st4 + nxt);
+			}
 		}
 		document.write(st5);
 	}
