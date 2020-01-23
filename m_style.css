@@ -129,6 +129,10 @@ body {
 .fbutton p {
 	margin-left: 25px;
 	transition: color 0.5s;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 #butt1 {
