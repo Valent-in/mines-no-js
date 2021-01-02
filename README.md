@@ -33,7 +33,7 @@ Flags can be set on top left corner of every field (default mode). Alternatively
 This is completely static page (not server-generated). 
 
 Most of internal mechanisms built on CSS counters. Arithmetic operations not allowed for counters, so all "calculations" are performing by "simple counting".
-CSS property :indeterminate is used for user input expansion (creating 2 mines by single click, auto-open emty areas).
+CSS property :indeterminate is used for user input expansion (creating 2 mines by single click, auto-open empty areas).
 HTML element Form allows resetting game without page reload.
 
 Documents in folder "generators" were used for creation of some parts of HTML and CSS. Generated parts of HTML are marked in comments. Generated CSS files are marked in names. 
